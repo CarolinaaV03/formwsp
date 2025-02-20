@@ -1,7 +1,12 @@
 /* Estilos generales del cuerpo */
 body {
     font-family: Arial, sans-serif;
-    background-color: #db3a3ad8;
+    background-color: #3adbcbd8;
+    background-image: url('Solicitud Equipos/Equipo2.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     display: flex;
@@ -23,6 +28,7 @@ h2 {
 /* Contenedor del formulario */
 form {
     background-color: #000000;
+    background: rgba(0, 0, 0, 0.8);
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -72,7 +78,7 @@ select {
 
 /* Estilo para los botones */
 button {
-    background-color: #ff0000;
+    background-color: #ed1010;
     color: white;
     padding: 10px;
     border: none;
@@ -123,3 +129,4 @@ h3 {
     color: #333;
     line-height: 1.5;
 }
+
